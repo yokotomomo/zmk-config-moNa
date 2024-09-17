@@ -37,7 +37,7 @@
 
         default_layer {
             bindings = <
-            &kp Q             &kp W     &lt 5 E       &kp R     &kp T                                                                         &kp Y        &kp U            &kp I         &kp O       &kp P
+            &kp Q             &kp W     &lt 5 E       &kp R     &kp T                                                                       &kp Y        &kp U            &kp I         &kp O       &kp P
             &kp A             &kp S     &kp D       &kp F     &kp G        &kp MINUS                                                        &kp H        &kp J            &kp K         &kp L       &kp ENTER
             &mt LEFT_SHIFT Z  &kp X     &kp C       &kp V     &kp B        &kp COLON                         &kp SEMICOLON                  &kp N        &kp M            &kp COMMA     &kp PERIOD  &mt LEFT_SHIFT SLASH
             &kp LCTRL                                         &lt 2 SPACE  &lt_to_layer_0 4 INT_MUHENKAN     &lt_to_layer_0 3 INT_MUHENKAN  &lt 1 SPACE  &kp BACKSPACE  &kp LEFT_WIN  &kp DEL  &kp LEFT_ALT
@@ -48,9 +48,9 @@
 
         layer_1 {
             bindings = <
-            &kp ESCAPE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(COMMA)         &kp  LS(PERIOD)                          &trans  &HOME        &UP_ARROW    &END          &trans
-            &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans  &LEFT_ARROW  &DOWN_ARROW  &RIGHT_ARROW  &ENTER
-            &trans      &trans            &trans             &trans                &trans                 &trans    &trans  &trans  &DEL         &PAGE_UP     &PAGE_DOWN    &kp BACKSLASH
+            &kp ESCAPE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(COMMA)         &kp  LS(PERIOD)                          &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
+            &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER
+            &trans      &trans            &trans             &trans                &trans                 &trans    &trans  &trans  &kp DEL         &kp PAGE_UP     &kp PAGE_DOWN    &kp BACKSLASH
             &trans                                                                 &trans                 &trans    &trans  &trans  &trans       &trans       &trans        &kp PIPE
             >;
         };
