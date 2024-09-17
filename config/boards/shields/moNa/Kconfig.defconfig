@@ -8,7 +8,7 @@ config ZMK_SPLIT
 
 endif
 
-if SHIELD_STUDYBALL_L
+if SHIELD_MONA_L
 
 config ZMK_KEYBOARD_NAME
     default "moNa_L"
