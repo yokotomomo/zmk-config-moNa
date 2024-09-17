@@ -18,4 +18,4 @@
 #
 ---
 board: ["seeduino_xiao_ble"]
-shield: ["moNa_R","moNa_L","settings_reset"]
+shield: ["moNa_L","moNa_R","settings_reset"]
