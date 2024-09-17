@@ -55,44 +55,7 @@
             >;
         };
 
-                layer_2 {
-            bindings = <
-            &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                               &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS    &kp EQUAL
-            &kp 1            &kp 2        &kp 3     &kp 4       &kp 5        &kp UNDERSCORE               &kp 6      &kp 7          &kp 8         &kp 9        &kp0
-            &kp F1           &kp F2       &kp F3    &kp F4      &kp F5       &kp F11             &kp F12  &kp F6     &kp F7         &kp F8        &kp F9       &kp F10
-            &trans                                              &trans       &trans              &trans   &trans     &trans         &trans        &trans       &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-            &trans  &trans  &kp LC(LS(TAB))         &kp LC(TAB)              &trans                     &trans  &trans  &trans  &trans  &trans
-            &trans  &trans  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans  &trans             &trans  &trans  &trans  &trans  &trans
-            &trans  &trans  &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-            &trans                                                           &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        };
-
-        layer_4 {
-            bindings = <
-            &trans  &trans  &kp LC(LS(TAB))         &kp LC(TAB)              &trans                     &trans  &trans  &trans  &trans  &trans
-            &trans  &trans  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans  &trans             &trans  &trans  &trans  &trans  &trans
-            &trans  &trans  &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-            &trans                                                           &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        };
-
-        layer_5 {
-            bindings = <
-            &trans  &trans    &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans
-            &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans            &trans  &trans  &trans  &trans  &trans
-            &trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            &trans                                &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
