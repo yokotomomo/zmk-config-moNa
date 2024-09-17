@@ -122,9 +122,7 @@
 &trans  &trans        &trans        &trans        &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
-    };
-};
-
+        
         MOUSE {
             bindings = <
 &trans  &trans    &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans
@@ -133,3 +131,6 @@
 &trans                                &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
+    };
+};
+
