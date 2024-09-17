@@ -45,6 +45,15 @@
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
+
+        layer_1 {
+            bindings = <
+            &kp ESCAPE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(COMMA)         &kp  LS(PERIOD)                          &trans  &HOME        &UP_ARROW    &END          &trans
+            &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans  &LEFT_ARROW  &DOWN_ARROW  &RIGHT_ARROW  &ENTER
+            &trans      &trans            &trans             &trans                &trans                 &trans    &trans  &trans  &DEL         &PAGE_UP     &PAGE_DOWN    &kp BACKSLASH
+            &trans                                                                 &trans                 &trans    &trans  &trans  &trans       &trans       &trans        &kp PIPE
+            >;
+        };
     };
 };
 
