@@ -17,5 +17,5 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-board: ["seeduino_xiao_ble"]
+board: ["seeeduino_xiao_ble"]
 shield: ["moNa_L","moNa_R","settings_reset"]
