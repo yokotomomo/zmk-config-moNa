@@ -81,6 +81,8 @@
             &trans      &trans            &trans             &trans                &trans                 &trans    &trans  &trans  &kp DEL         &kp PAGE_UP     &kp PAGE_DOWN    &kp BACKSLASH
             &trans                                                                 &trans                 &trans    &trans  &trans  &trans       &trans       &trans        &kp PIPE
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         layer_2 {
@@ -111,7 +113,6 @@
             &trans                                                           &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         layer_5 {
