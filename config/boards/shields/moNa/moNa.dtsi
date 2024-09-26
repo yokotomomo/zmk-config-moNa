@@ -35,7 +35,7 @@
         a-gpios = <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
         b-gpios = <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
         steps = <24>;
-        status = "okay";
+        status = "disabled";
     };
 
     right_encoder: encoder_right {
