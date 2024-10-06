@@ -71,7 +71,7 @@
             &kp LCTRL                                         &lt 2 SPACE  &lt_to_layer_0 4 INT_MUHENKAN      &lt_to_layer_0 3 INT_HENKAN  &lt 1 SPACE  &kp BACKSPACE  &kp LEFT_WIN  &kp DEL  &kp LEFT_ALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         layer_1 {
