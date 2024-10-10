@@ -14,7 +14,7 @@
 
 ## 1. moNaについて
 
-moNaはkumakeyさんが制作したroBaを参考にしてできた分割型キーボードです。
+moNaは[kumakey](https://twitter.com/kumamuk_key)さんが制作したroBaを参考にしてできた分割型キーボードです。
 
 ### 1-1. 性能紹介
 
