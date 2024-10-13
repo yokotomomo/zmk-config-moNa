@@ -44,6 +44,7 @@ moNaは[kumakey](https://twitter.com/kumamuk_key)さんが制作したroBaを参
 
 ## 2. 商品詳細
 
+#### 価格 --- 調整中 ---
 
 ### 2-1. 商品内容
 
