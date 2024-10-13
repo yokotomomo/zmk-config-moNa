@@ -103,25 +103,28 @@ bluetooth接続が完了したらすべてのキーが認識するか、ロー�
 3. 画面右上の「Fork」をクリック
 ![](img/fork.png)
 4. そのまま「Create fork」をクリック
-![](img/createfork.jpg)
+![](img/createfork.png)
 5. フォークしたリポジトリの「Actions」タブに移動し、「I understand my workflows, go ahead and enable them」をクリックし、github Actionsを有効化
-![](img/enableActions.jpg)
+![](img/enableActions.png)
 6. [KeymapEditor](https://nickcoutsos.github.io/keymap-editor/)にアクセス  
 7. 「GitHub」を選択
-![](img/keymapeditor1.jpg)  
-8. 「Login with GitHub」からでログインし、「Authorize Keymap Editor」を選択  
-9. 指示に従い、フォークしたzmk-config-moNaにKeymap Editorがアクセスできるように進める
-10. Keymap Editor上でキーマップが表示されたら、好きにキーマップを編集する
-11. 画面左上の「Save」を押すと、編集したキーマップが適用されてGitHub Actionsが走り、自動的にビルドが開始します
+![](img/keymapeditor1.jpg)
+8. 「Login with GitHub」からでログイン 
+9. 「Only select repositories」を選択して「ADD Repository」を押す
+![](img/addrepository.png)
+10. 「Only select repositories」を選択し「Selectrepositories」から「zmk-config-moNa」を選択して「Install」を押す
+![](img/selectrepository.png)
+11. Keymap Editor上でキーマップが表示されたら、好きにキーマップを編集する
+12. 画面左上の「Save」を押すと、編集したキーマップが適用されてGitHub Actionsが走り、自動的にビルドが開始します
 ![](img/keymapeditor2.jpg)
-12. 「Save」の隣に表示される「Latest」をクリックするとGitHubに移動し、ビルドが完了するとファームウェアがダウンロードできるようになります。  
+13. 「Save」の隣に表示される「Latest」をクリックするとGitHubに移動し、ビルドが完了するとファームウェアがダウンロードできるようになります。  
 （ビルドには2～4分かかる場合があります。）
-13. [書込み手順](#4-2ファームウェアの書き込み方法)に従い、ファームウェアを書き込みます。  
+14. [書込み手順](#4-2ファームウェアの書き込み方法)に従い、ファームウェアを書き込みます。  
     + キーマップの編集のみの場合はトラックボール側(セントラル)のみを書き換えることで変更が適用されます。  
     リセットファームウェアの書込みも基本的には必要ありません。
     + KeymapEditorを用いずにmoNa.keymap以外のファイルの内容を書き換えた場合は、左右のファームウェアを書き換えてください。  
     + ファームウェアを書き直した際は、PC側のペアリング情報も削除してから再度ペアリングを行ってください。
-14. 無事に変更したキーマップが適用されていれば成功です。
+15. 無事に変更したキーマップが適用されていれば成功です。
 
 ### 4-2.ファームウェアの書き込み方法
 
