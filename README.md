@@ -101,7 +101,7 @@ bluetooth接続が完了したらすべてのキーが認識するか、ロー�
 1. githubアカウントを作成し、ログインします。
 2. [このリポジトリ](https://github.com/sayu-hub/zmk-config-moNa)にアクセス
 3. 画面右上の「Fork」をクリック
-![](img/fork.jpg)
+![](img/fork.png)
 4. そのまま「Create fork」をクリック
 ![](img/createfork.jpg)
 5. フォークしたリポジトリの「Actions」タブに移動し、「I understand my workflows, go ahead and enable them」をクリックし、github Actionsを有効化
