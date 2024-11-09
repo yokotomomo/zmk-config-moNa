@@ -25,8 +25,12 @@
 
 ## 1. moNaについて
 
+写真○○
+
 moNaは[kumakey](https://twitter.com/kumamuk_key)さんが制作したroBaを参考にしてできた分割型キーボードです。
 kumakeyさんから販売許可は戴いております。
+
+興味のある人はぜひdiscordの[moNaサポート・開発サーバー](https://discord.gg/kJjDBDHGer)に入ってみてください！
 
 ### 1-1. 性能紹介
 
