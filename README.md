@@ -159,15 +159,15 @@ bluetooth接続が完了したらすべてのキーが認識するか、ロー�
 2. マイコンのリセットボタンを2回押すと、「XIAO SENSE」という名前でUSBドライブとして認識されるかと思います。(ブートローダの起動)
 3. 「XIAO SENSE」ドライブにsettings_reset-seeeduino_xiao_ble-zmk.uf2をドラッグアンドドロップします。  
 4. 書込み完了すると、「XIAO SENSE」というドライブは消えますが、再度セットボタンを2回押し、ブートローダを起動します。  
-5. 「XIAO SENSE」ドライブにroBa_L-seeeduino_xiao_ble-zmk.uf2をドラッグアンドドロップします。  
-6. 右側も同様の手順でsettings_reset-seeeduino_xiao_ble-zmk.uf2とroBa_R-seeeduino_xiao_ble-zmk.uf2を順番に書き込みます。
+5. 「XIAO SENSE」ドライブにmoNa_L rgbled_adapter-seeeduino_xiao_ble-zmk.uf2をドラッグアンドドロップします。  
+6. 右側も同様の手順でsettings_reset-seeeduino_xiao_ble-zmk.uf2とmoNa_R rgbled_adapter-seeeduino_xiao_ble-zmk.uf2を順番に書き込みます。
 7. 両方の書込みが完了したら、電源を入れ、それぞれのマイコンのリセットボタンを**1回**押します。
 8. PCでbluetoothデバイスとして「moNa」が認識され接続できればOKです。  
 
 ## 5. 修正等
 
 ### 5-1.修正ログ
-修正なし
+11.09 -独自キーキャップ製作
 
 ### 5-2.修正予定( やることリスト )
 
