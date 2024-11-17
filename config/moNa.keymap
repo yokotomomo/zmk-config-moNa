@@ -13,7 +13,7 @@
 };
 
 / {
-//コンボ設定
+    //コンボ設定
     combos {    
         compatible = "zmk,combos";
 
@@ -43,7 +43,7 @@
         };
     };
 
-//マクロ(既存のキーの組み合わせ)
+    //マクロ(既存のキーの組み合わせ)
     macros {
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
@@ -53,7 +53,7 @@
         };
     };
 
-//新たな動作を定義する
+    //新たな動作を定義する
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
@@ -73,7 +73,7 @@
         };
     };
 
-//キーマップ設定
+    //キーマップ設定
     keymap {
         compatible = "zmk,keymap";
 
