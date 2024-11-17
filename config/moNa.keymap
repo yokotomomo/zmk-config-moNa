@@ -14,6 +14,10 @@
 };
 
 / {
+    chosen {
+        zmk,charmap = &charmap_us;
+    };
+
     //コンボ設定
     combos {    
         compatible = "zmk,combos";
@@ -72,6 +76,8 @@
             // 追加: スクロールのタップ時間を設定 (20ms)
             tap-ms = <20>;
         };
+
+
     };
 
     //キーマップ設定
