@@ -18,7 +18,7 @@
         compatible = "zmk,combos";
 
         tab {   
-            bindings = <&kp TAB>;   　 //<押したとき実行されるコマンド>
+            bindings = <&kp TAB>;   　 //押したとき実行されるコマンド
             key-positions = <11 12>;   //押すキーの位置
         };
 
