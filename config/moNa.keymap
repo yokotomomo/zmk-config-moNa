@@ -13,8 +13,7 @@
     quick-tap-ms = <0>;
 };
 
-/ 
-
+/ {
     //コンボ設定
     combos {    
         compatible = "zmk,combos";
