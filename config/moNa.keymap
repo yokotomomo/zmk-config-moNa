@@ -13,10 +13,7 @@
     quick-tap-ms = <0>;
 };
 
-/ {
-    chosen {
-        zmk,charmap = &charmap_us;
-    };
+/ 
 
     //コンボ設定
     combos {    
